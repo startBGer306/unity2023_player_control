@@ -26,6 +26,9 @@ public class Move : MonoBehaviour
                 m_body.Translate(vir * Time.deltaTime * zoom);
             }
         }
+        ///summary
+        ///此处的代码用于开启角色的旁观者模式
+        ///summary
         if (Input.GetMouseButton(1))
         {
             if (Input.GetKey(KeyCode.E))
