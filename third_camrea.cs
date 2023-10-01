@@ -24,7 +24,7 @@ public class third_camrea : MonoBehaviour
        pointofview=GetComponent<Transform>();
     }
     /// <summary>
-    /// ÓÃÓÚ¿ØÖÆ¾µÍ·µÄĞı×ª
+    /// ç”¨äºæ§åˆ¶é•œå¤´çš„æ—‹è½¬
     /// </summary>
     private void CameraMove()
     {
@@ -48,7 +48,7 @@ public class third_camrea : MonoBehaviour
         CameraSPostion.LookAt(pointofview.position);
     }
     /// <summary>
-    /// ÓÃÓÚ¿ØÖÆÊ¹¾µÍ·Ò»Ö±¸úËæplayer
+    /// ç”¨äºæ§åˆ¶ä½¿é•œå¤´ä¸€ç›´è·Ÿéšplayer
     /// </summary>
     /// <returns></returns>
     private IEnumerator SmoothMove()
@@ -64,7 +64,7 @@ public class third_camrea : MonoBehaviour
         }
         isMoving = false;
     }
-    // Update is called once per frame
+    // ç”¨äºç›¸æœºçš„è·Ÿéš
     void Update()
     {
         CameraMove();
