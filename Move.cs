@@ -28,7 +28,7 @@ public class Move : MonoBehaviour
         }
         ///<summary>
         ///此处的代码用于开启角色的旁观者模式
-        ///<summary>
+        ///</summary>
         if (Input.GetMouseButton(1))
         {
             if (Input.GetKey(KeyCode.E))
